@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: antiquewhite;
+   color: #213672; 
+
+   font-size: 20px;
+   font-weight: normal;
+   font-family: 'Roboto', sans-serif;
+
+   
+}
+
+.leonchik {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.brawl  {
+    color: #898685;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+   
+
+.games {
+    background: white;
+    padding: 7px;
+    border: 4px solid royalblue;
+    margin: 3px;
+
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+a:visited {
+    color: lightgrey;
+}
+
+.max {
+    color: lime;
+}
+
+.brawl_a {
+    list-style: square;
+    padding: 0%;
+    margin-bottom: 3px;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.watch h2 {
+    text-align: center;
+}
+
+.send label {
+    display: block;
+    font-size: 17px;
+    color: lightgreen;
+}
+
+.send input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid lightseagreen;
+    padding: 6px 0 5px 0;
+    color: #000;
+    outline: none;
+    font-family: inherit;
+}
+
+.watch {
+    background-color: aquamarine;
+    padding: 5px;
+    border:4px solid blueviolet ;
+}
